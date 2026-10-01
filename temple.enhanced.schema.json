@@ -1,0 +1,827 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MandirWikiTempleEnhancedV2",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "slNo": {
+      "type": [
+        "string",
+        "integer",
+        "null"
+      ]
+    },
+    "generalInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "templeName": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "templeDescription": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "deity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "trekPoints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "distanceKm": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "description": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "altitude": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "distanceKm",
+              "description",
+              "altitude"
+            ]
+          }
+        },
+        "dressCode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "templeName",
+        "templeDescription",
+        "location",
+        "deity",
+        "trekPoints",
+        "dressCode"
+      ]
+    },
+    "timeInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bestTime": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "peakTime": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "bestTime",
+        "peakTime"
+      ]
+    },
+    "footfall": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "monthlyFootfalls": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "month": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "totalYatra": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "month",
+              "totalYatra"
+            ]
+          }
+        }
+      },
+      "required": [
+        "monthlyFootfalls"
+      ]
+    },
+    "registrationProcess": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "isMandatory": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cost": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "requiredDocs": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "location": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "website": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "validity": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "description",
+          "isMandatory",
+          "method",
+          "cost",
+          "requiredDocs",
+          "location",
+          "website",
+          "validity"
+        ]
+      }
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": [
+          "string",
+          "object"
+        ]
+      }
+    },
+    "temperature": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "monthlyTemperatures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "month": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "high": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "low": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "month",
+              "high",
+              "low"
+            ]
+          }
+        },
+        "seasonalTemperatures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "season": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "high": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "low": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "extraInfo": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "season",
+              "high",
+              "low",
+              "extraInfo"
+            ]
+          }
+        }
+      },
+      "required": [
+        "monthlyTemperatures",
+        "seasonalTemperatures"
+      ]
+    },
+    "templeTimings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mandirTimings": {
+          "$ref": "#/$defs/timingBlock"
+        },
+        "gufaTimings": {
+          "$ref": "#/$defs/timingBlock"
+        },
+        "aartis": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "time": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "extraInfo": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "seasonalTimes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "season": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "time": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "season",
+                    "time"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "name",
+              "time",
+              "extraInfo",
+              "seasonalTimes"
+            ]
+          }
+        },
+        "seasonalTimings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "season": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "morningOpen": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "morningClose": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "eveningOpen": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "eveningClose": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "extraInfo": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "season",
+              "morningOpen",
+              "morningClose",
+              "eveningOpen",
+              "eveningClose",
+              "extraInfo"
+            ]
+          }
+        }
+      },
+      "required": [
+        "mandirTimings",
+        "gufaTimings",
+        "aartis",
+        "seasonalTimings"
+      ]
+    },
+    "transportation": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/transport"
+      }
+    },
+    "accommodation": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/accommodation"
+      }
+    },
+    "gates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/gate"
+      }
+    },
+    "facilities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/facility"
+      }
+    },
+    "specialServices": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/service"
+      }
+    },
+    "nearbyPlaces": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nearby"
+      }
+    },
+    "images": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "thumbnailImage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "galleryImages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "thumbnailImage",
+        "galleryImages"
+      ]
+    },
+    "management": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "trustName": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "website": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contactNumber": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "trustName",
+        "website",
+        "contactNumber"
+      ]
+    }
+  },
+  "required": [
+    "slNo",
+    "generalInfo",
+    "timeInfo",
+    "footfall",
+    "registrationProcess",
+    "prerequisites",
+    "temperature",
+    "templeTimings",
+    "transportation",
+    "accommodation",
+    "gates",
+    "facilities",
+    "specialServices",
+    "nearbyPlaces",
+    "images",
+    "management"
+  ],
+  "$defs": {
+    "timingBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "morningOpen": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "morningClose": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "eveningOpen": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "eveningClose": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "morningOpen",
+        "morningClose",
+        "eveningOpen",
+        "eveningClose"
+      ]
+    },
+    "transport": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "startPoint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "endPoint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "distanceKm": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "duration": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cost": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "extraInfo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "mode",
+        "startPoint",
+        "endPoint",
+        "distanceKm",
+        "duration",
+        "cost",
+        "extraInfo"
+      ]
+    },
+    "accommodation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "costRange": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bookingInfo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "type",
+        "location",
+        "costRange",
+        "bookingInfo"
+      ]
+    },
+    "gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "isOpen": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "location",
+        "isOpen"
+      ]
+    },
+    "facility": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "isAvailable": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "price": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "extraInfo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "isAvailable",
+        "location",
+        "price",
+        "extraInfo"
+      ]
+    },
+    "service": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "price": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "extraInfo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "price",
+        "extraInfo"
+      ]
+    },
+    "nearby": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "description"
+      ]
+    }
+  }
+}

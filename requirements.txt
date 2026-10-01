@@ -1,0 +1,7 @@
+streamlit>=1.40
+scrapling[rag]
+openai
+jsonschema
+pypdf
+
+requests>=2.31

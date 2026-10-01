@@ -1,0 +1,266 @@
+{
+  "slNo": null,
+  "generalInfo": {
+    "templeName": "Mahakaleshwar Temple",
+    "templeDescription": "Mahakaleshwar (Mahakal) is the Jyotirlinga shrine at Ujjain dedicated to Lord Shiva. The lingam is believed to be swayambhu and the idol is Dakshinamurti (faces south). The temple complex spreads over five levels (one underground) and shows Maratha, Bhumija and Chalukya architectural influences; notable features include a carved shikhara, intricately carved pillars and ornate ceilings. The sanctum contains images of Ganesh (west), Parvati (north), and Kartikeya (east) with Nandi to the south; the idol of Omkareshwar Shiva is consecrated above the Mahakal shrine. The idol of Nagchandreshwar on the third storey is accessible for darshan only on Nag Panchami. The site is famed for the unique daily Bhasma Aarti during which the Shivlingam is adorned with a silver crown, serpent, jewels and holy ash. The temple has a long recorded history including reconstruction in the 12th century and later renovations in the 18th century.",
+    "location": "Ujjain, Madhya Pradesh",
+    "deity": "Mahakaleshwar Jyotirlinga (Lord Shiva; Mahakal; idol is Dakshinamurti facing south)",
+    "trekPoints": [],
+    "dressCode": "Garbh Grah Darshan: Men - dhoti; Women - saree. For Bhasma Aarti: Men - dhoti with upper body bare; Women - saree.",
+    "fullAddress": null,
+    "coordinates": null
+  },
+  "timeInfo": {
+    "bestTime": "For less crowded darshan visit on weekdays and prefer afternoon slots; crowds increase during Shravan month, on Mondays and on Maha Shivaratri (festival periods).",
+    "peakTime": "Shravan month, Mondays and Maha Shivaratri; daily thousands of devotees visit the temple."
+  },
+  "footfall": {
+    "monthlyFootfalls": [],
+    "dailyVisitors": null,
+    "annualFootfall": null,
+    "sourceNote": null
+  },
+  "registrationProcess": [
+    {
+      "name": "General Darshan",
+      "description": "General darshan is free for devotees; thousands visit daily.",
+      "isMandatory": false,
+      "method": null,
+      "cost": "Free",
+      "requiredDocs": null,
+      "location": null,
+      "website": null,
+      "validity": null,
+      "bookingRequired": false
+    },
+    {
+      "name": "VIP Darshan",
+      "description": "Priority entry giving faster access and a closer view of the Shivalinga.",
+      "isMandatory": false,
+      "method": "Online & at authorized ticket counter (official portal cited for online booking)",
+      "cost": "₹250 (approx.)",
+      "requiredDocs": "ID proof (required for online booking)",
+      "location": "Authorized ticket counter near the temple entrance (offline)",
+      "website": "https://www.shrimahakaleshwar.mp.gov.in/",
+      "validity": null,
+      "bookingRequired": true
+    },
+    {
+      "name": "Garbh Grah Darshan (innermost sanctum)",
+      "description": "Access to the innermost sanctum; devotees may perform Abhishek and touch the Shivalinga (subject to rules/dress code). Strict traditional attire is enforced for this darshan.",
+      "isMandatory": false,
+      "method": "Online & at authorized ticket counter (official portal cited for online booking)",
+      "cost": "₹750 (approx.)",
+      "requiredDocs": "Original ID proof mandatory",
+      "location": "Garbh Grah entry as per ticket/pass",
+      "website": "https://www.shrimahakaleshwar.mp.gov.in/",
+      "validity": null,
+      "bookingRequired": true
+    },
+    {
+      "name": "Bhasma Aarti (participation)",
+      "description": "Unique daily ritual at Mahakaleshwar performed at the Jyotirlinga; participation requires prior booking.",
+      "isMandatory": false,
+      "method": "Book online via official booking portal (booking required beforehand)",
+      "cost": "General entry ₹100 (approx.); VIP Aarti ₹200 (approx.)",
+      "requiredDocs": "Valid ID proof (upload required for online booking)",
+      "location": null,
+      "website": "https://www.shrimahakaleshwar.mp.gov.in/",
+      "validity": null,
+      "bookingRequired": true
+    },
+    {
+      "name": "Sandhya & Shayan Aarti bookings",
+      "description": "Sandhya and Shayan aarti bookings are available only through the official website; Sandhya booking opens daily at 12:00 PM and Shayan booking opens daily at 4:00 PM. Offline/counter booking is not permitted for these aartis. Booking availability may be same‑day only and closes when the daily quota is filled.",
+      "isMandatory": false,
+      "method": "Online only (official portal)",
+      "cost": null,
+      "requiredDocs": "Carry original ID proof if booking required",
+      "location": null,
+      "website": "https://www.shrimahakaleshwar.mp.gov.in/",
+      "validity": "Booking available only for the same day (daily quota)",
+      "bookingRequired": true
+    }
+  ],
+  "prerequisites": [],
+  "temperature": {
+    "monthlyTemperatures": [
+      {
+        "month": "January",
+        "high": "31.3 ºC",
+        "low": "4.0 ºC"
+      },
+      {
+        "month": "February",
+        "high": "34.4 ºC",
+        "low": "6.0 ºC"
+      }
+    ]
+  },
+  "templeTimings": {
+    "mandirTimings": {
+      "morningOpen": "04:00 AM",
+      "morningClose": null,
+      "eveningOpen": null,
+      "eveningClose": "11:00 PM"
+    },
+    "gufaTimings": {
+      "applicable": false,
+      "reason": "No separate literal cave/gufa with visitor timings was identified in the available evidence.",
+      "morningOpen": null,
+      "morningClose": null,
+      "eveningOpen": null,
+      "eveningClose": null
+    },
+    "aartis": [
+      {
+        "name": "Bhasma Aarti",
+        "time": "04:00 AM (approximately; ritual lasts ~2 hours)",
+        "extraInfo": "Unique daily ritual at Mahakaleshwar; Shivlingam is adorned with a silver crown, serpent, jewels and holy ash. It is the only Jyotirlinga temple known to perform the Bhasma Aarti. Participation requires prior booking; photography inside the sanctum during the aarti is strictly prohibited."
+      }
+    ],
+    "specialAccessTimings": [
+      {
+        "name": "Bhasma Aarti",
+        "time": "04:00 AM",
+        "appliesTo": "Bhasma Aarti participants",
+        "extraInfo": "Prior booking may be required."
+      },
+      {
+        "name": "Garbh Grah Darshan",
+        "time": "Typically 1:00 PM – 4:00 PM",
+        "appliesTo": "Garbh Grah access",
+        "extraInfo": "Subject to temple administration rules and availability."
+      },
+      {
+        "name": "Garbh Grah Darshan (darshan window)",
+        "time": "Typically 1:00 PM – 4:00 PM (darshan window varies)",
+        "appliesTo": "Garbh Grah Darshan (darshan window)",
+        "extraInfo": "Garbh Grah darshan window is usually in the afternoon; timing and availability may change during festivals or administrative decisions."
+      }
+    ]
+  },
+  "transportation": [
+    {
+      "mode": "Air",
+      "startPoint": "Devi Ahilyabai Holkar Airport, Indore",
+      "endPoint": "Mahakaleshwar Temple, Ujjain",
+      "distanceKm": 53,
+      "duration": null,
+      "cost": null,
+      "extraInfo": "Nearest major airport for Ujjain (Indore airport is commonly used)."
+    },
+    {
+      "mode": "Rail",
+      "startPoint": "Ujjain Junction Railway Station (UJN)",
+      "endPoint": "Mahakaleshwar Temple",
+      "distanceKm": 2,
+      "duration": null,
+      "cost": null,
+      "extraInfo": "Ujjain is a railway station on the Western Railway zone (station code UJN)."
+    },
+    {
+      "mode": "Road",
+      "startPoint": null,
+      "endPoint": "Mahakaleshwar Temple",
+      "distanceKm": null,
+      "duration": null,
+      "cost": null,
+      "extraInfo": "Regular bus services and road connections link Ujjain with Indore, Bhopal, Ratlam, Gwalior, Mandu, Dhar, Kota and Omkareshwar."
+    }
+  ],
+  "accommodation": [
+    {
+      "type": "Dharamshalas, budget hotels, guest houses and mid-range hotels",
+      "location": "Ujjain (near the temple area)",
+      "costRange": null,
+      "bookingInfo": null
+    }
+  ],
+  "gates": [],
+  "facilities": [],
+  "specialServices": [
+    {
+      "name": "VIP Darshan",
+      "description": "Priority entry with faster access and closer view of the Shivalinga.",
+      "price": "₹250 (approx.)",
+      "extraInfo": "Booking available online and at authorized ticket counters; tickets are non-transferable and refunds governed by temple administration rules."
+    },
+    {
+      "name": "Garbh Grah Darshan (special innermost sanctum access)",
+      "description": "Access to the inner sanctum, allowing Abhishek and proximity to the Shivlinga subject to rules.",
+      "price": "₹750 (approx.)",
+      "extraInfo": "ID proof mandatory; online & counter booking modes cited; ticketing and refund policies governed by temple administration."
+    },
+    {
+      "name": "Bhasma Aarti participation",
+      "description": "Attend the unique Bhasma Aarti ritual at the Jyotirlinga.",
+      "price": "General ₹100 (approx.); VIP ₹200 (approx.)",
+      "extraInfo": "Participation requires prior online booking via the official portal; bookings may fill quickly during Shravan, Maha Shivaratri, Mondays and long weekends."
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Harsiddhi Mata Temple",
+      "description": "Shakti shrine near Rudra Sagar Lake in Ujjain; approximately 600 metres from Mahakaleshwar Jyotirlinga. Temple opens 05:00 AM–07:00 PM and celebrates Navratri with extended timings.",
+      "address": null,
+      "distanceKm": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Mangalnath Temple",
+      "description": "Temple on the banks of the Shipra River in Ujjain; associated with planetary deity Mangal. General opening hours cited as 04:00 AM–10:00 PM; about 6 km from Ujjain Junction.",
+      "address": null,
+      "distanceKm": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Chintaman Ganesh Temple",
+      "description": "Important Ganesh shrine in Ujjain (about 7 km southwest of central Ujjain); morning darshan 05:00 AM–12:00 PM and evening 04:00 PM–10:00 PM.",
+      "address": null,
+      "distanceKm": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Shipra River Ghats",
+      "description": "Ghats on the Shipra River used for ritual baths and spiritual prayers near Mahakaleshwar.",
+      "address": null,
+      "distanceKm": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Kal Bhairav Temple",
+      "description": "Noted local shrine in Ujjain listed among attractions near Mahakaleshwar (mentioned as a nearby attraction).",
+      "address": null,
+      "distanceKm": null,
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "images": {
+    "thumbnailImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Mahakaleshwar_Temple%2C_Ujjain.jpg/1280px-Mahakaleshwar_Temple%2C_Ujjain.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+  },
+  "management": {
+    "trustName": "Shree Mahakaleshwar Temple Management Committee",
+    "website": "https://www.shrimahakaleshwar.mp.gov.in/",
+    "contactNumber": "0734-2550563"
+  },
+  "visitorRules": [
+    {
+      "name": "Dress code",
+      "description": "Garbh Grah Darshan: Men - dhoti; Women - saree. For Bhasma Aarti: Men - dhoti with upper body bare; Women - saree.",
+      "appliesTo": "Garbh Grah Darshan / Bhasma Aarti",
+      "mandatory": true
+    },
+    {
+      "name": "Photography restriction",
+      "description": "Photography inside the temple sanctum is prohibited.",
+      "appliesTo": "Sanctum",
+      "mandatory": true
+    }
+  ]
+}
